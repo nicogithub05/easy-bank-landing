@@ -1,0 +1,50 @@
+:root {
+  /* responsive */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /*colors*/ 
+  --azul:hsl(233, 26%, 24%) ;
+  --verde: hsl(136, 65%, 51%);
+  --cyan: hsl(192, 70%, 51%);
+  --gris: hsl(233, 8%, 62%);
+  --blanco: #FFF;
+  --negro: #000;
+
+  /*tipografia*/ 
+  --font-family: 'Public Sans', sans-serif; 
+  --font-size: 1.8rem;
+  --bold: 700; 
+  --light: 400;
+  --more-light: 300;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+header {
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-hamburguer-menu {
+  align-self: flex-start;
+}
