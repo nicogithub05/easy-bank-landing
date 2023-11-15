@@ -107,3 +107,35 @@ header {
   color: var(--blanco);
   font-weight: 500;
 }
+
+/* section choose */ 
+
+.choose {
+  text-align: center;
+  background-color: #F4F5F7;
+  padding-top: 60px;
+  margin-top: 30px;
+}
+
+.choose-cards {
+  padding: 0px 20px;
+}
+
+.choose-title {
+  padding: 0px 60px;
+  margin-bottom: 20px;
+}
+
+.choose-pgraph {
+  margin-bottom: 50px;
+  color: var(--gris);
+  line-height: 25px;
+}
+
+.choose-image {
+  margin-bottom: 30px;
+}
+
+.choose-image:nth-child(1) {
+  margin-top: 30px;
+}
