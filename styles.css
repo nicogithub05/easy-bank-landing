@@ -115,7 +115,7 @@ header {
   background-color: #F4F5F7;
   padding-top: 60px;
   margin-top: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .choose-cards {
@@ -134,9 +134,13 @@ header {
 }
 
 .choose-image {
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .choose-image:nth-child(1) {
-  margin-top: 30px;
+  margin-top: 0px;
+}
+.choose-cards-title {
+  margin-bottom: 20px;
 }
