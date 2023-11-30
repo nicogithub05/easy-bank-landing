@@ -144,3 +144,48 @@ header {
 .choose-cards-title {
   margin-bottom: 20px;
 }
+
+/* section lastest post */
+
+section.articles {
+  text-align: center; 
+  padding: 80px 0px 0px 0px;
+}
+
+.articles-title {
+  margin-bottom: 10px;
+}
+
+.article-post-cards {
+  text-align: left;
+  background-color: #F4F5F7;
+  margin: 20px 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.article-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.articles-title {
+ font-weight: bold;
+}
+
+.padding-articles {
+  padding: 0px 30px
+}
+
+.articles-pgraph1 {
+  margin: 20px 0px  15px 0px;
+  color: var(--gris);
+  font-size: 10px;
+}
+
+.articles-pgraph2 {
+  font-size: 13px;
+  color: var(--gris);
+}
