@@ -190,3 +190,42 @@ section.articles {
   color: var(--gris);
 }
 
+/* footer */ 
+
+footer {
+  background-color: var(--azul);
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.container1 {
+  margin-bottom: 30px;
+}
+
+.container1__figure {
+  margin-bottom: 30px;
+}
+
+.container1__link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.container2-link {
+  display: block;
+  text-decoration: none;
+  color: var(--gris);
+  margin-bottom: 15px;
+}
+
+.container3 {
+  margin-bottom: 30px;
+}
+
+.button-footer {
+  margin-bottom: 30px;
+}
+
+.container4-pgraph {
+  color: var(--gris);
+}
